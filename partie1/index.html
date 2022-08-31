@@ -80,7 +80,222 @@ else{
                     alert(sentences("humbert","khadji"))
                 </script> -->
 
-<!-- AA -->
+<!---->           
+<!-- <script>
+    let myArray = ['Rafael', 'Humbert', 'Ahmed', 'Jérôme', 'Guillaume'];
+    // Le contenu se définit entre crochets, avec une virgule entre chaque valeur.
+    // La chaîne 'Rafael' correspond à l'indice 0, 'Mathilde' à l'indice 1...
+    alert(myArray[1]); // Affiche : « Laurence »
+    </script> -->
+                             <!-- <script>
+                                let myArray = ['Rafael', 'Mathilde'];
+                                myArray.push('Ahmed'); // Ajoute « Ahmed » à la fin du tableau
+                                myArray.push('Jérôme', 'Guillaume'); // Ajoute « Jérôme » et « Guillaume » à
+                                la fin du tableau
+                                </script> -->
+<!-- 
+                                La méthode unshift() fonctionne comme push(), excepté que les items sont ajoutés
+au début du tableau. Les méthodes shift() et pop() retirent respectivement le premier
+et le dernier élément du tableau.
+<script>
+let myArray = ['Rafael', 'Mathilde', 'Ahmed', 'Jérôme', 'Guillaume'];
+myArray.shift(); // Retire « Rafael »
+myArray.pop(); // Retire « Guillaume »
+alert(myArray); // Affiche « Mathilde,Ahmed,Jérôme »
+</script> -->
+
+<!-- On peut découper une chaîne de caractères en tableau avec split() :
+<script>
+var cousinsString = 'Jérôme Guillaume Paul',
+cousinsArray = cousinsString.split(' '); // Avec les espaces, on a trois items
+alert(cousinsString);
+alert(cousinsArray);
+</script>
+On fait l'inverse avec join() :
+<script>
+var cousinsString_2 = cousinsArray.join('-');
+alert(cousinsString_2); </script>
+ -->
+       <!--                  ........fonction anonyme.....
+ <script>
+    let sayHello = function(friend) {
+    alert(`hello ${friend}`);
+    };
+    sayHello('humbert'); </script> -->
+<!-- 
+                            <script>
+                                let sayHello = (friend) => alert(`hello ${friend}`);
+                                sayHello('humbert');
+                            </script> -->
+
+                          <!--   <script>
+                                let multiplication = (number0ne,numberTwo) => {return number0ne*numberTwo}
+                                let result = multiplication(4,2)
+                                alert(result);
+                                 </script>
+                     -->
+                     <!-- <script>
+                                  let onepiece = ["luffy","zoro","sanji","ussop","namie","robbin"];
+                                  for(let i = 0; i<onepiece.length; i++){
+                                    console.log(`personnage : ${onepiece[i]}`)
+                                  }
+                     </script> -->
+                     <!-- <script>
+                        let notes = [10, 17, 4, 8, 2, 19];
+                        let sum = 0;
+                        for(let i = 0; i<notes.length; i++){
+                            sum+=notes[i]
+                        }
+                        alert (sum);
+                     </script> -->
+
+                     <!-- <script>
+                         let notes = [10, 17, 4, 8, 2, 19];
+                         let sum = 0;
+                         for(let i of notes){
+                         sum+=i
+                         }
+                         console.log(sum)
+                         
+                     </script> -->
+
+<!-- 
+                     <script>
+                        let tables = [18,17,12,14,16,14]
+                        let sum = 0
+                        let moy = 0
+                        for(let i of tables){
+                         sum+=i
+                         }
+                         moy = sum/tables.length
+                         alert(moy)
+                     </script> -->
+<!-- 
+                     <script>
+                       const numbers = [13,8,2,21,5,1,3,4];
+const byValue = (a,b) => a - b;
+const sorted = [...numbers].sort(byValue);
+ // [1,1,2,3,5,8,13,21]
+ console.log(sorted);
+                     </script> -->
+                     
+                    <!--  <script>
+                        let array = []
+                        while(array.length < 5){
+                            array.push(prompt("saisisez un fruit"))
+                        }
+                        console.table(array)
+                     </script> -->
+
+                                  <!--   <script>
+                                        let myfruits = [];
+                                        for(let i = 0; i<5; i++){
+                                            let fruit = prompt("saisissez un fruit: ");
+                                            myfruits.push(fruit);
+                                        }
+                                        console.table(myfruits)
+                                        myfruits.pop()
+                                        console.table(myfruits)
+
+                                    
+                                    </script> -->
+
+
+                                   <!--  <script>
+                                        let name = "AMAH Humbert"
+                                        console.log(name.toLowerCase())
+                                        console.log(name.toUpperCase())
+                                    </script> -->
+<!-- 
+                                    <script>
+                                        const chaine = "azerty";
+                                        console.log(chaine === "azerty")
+                                        console.log(chaine === "qwerty")
+                                        console.log(chaine === "Azerty")
+                                    </script> -->
+
+                  <!--                   <script>
+                                        function palindromeFn(string) {
+	const stringLength = string.length;
+	for (let i = 0; i < stringLength / 2; i++) {
+		if (string[i] !== string[stringLength - 1 - i]) {
+			return 'It is not a palindrome.';
+		}
+	}
+	return 'It is a palindrome.';
+}
+console.log(palindromeFn('amavv')); 
+                                    </script>  -->
+
+                                     <!-- <script>
+                                        let tables = [10,13,9,7,32,90]
+                                        let sup = 0
+                                        for(note of tables ){
+                                            if(sup<note){
+                                                sup = note
+                                            }else{
+                                                sup = sup
+                                            }
+                                        }
+                                        console.log(tables)
+                                        console.log(sup)
+                                    </script> -->
+
+                                    <!-- 
+                                        <script>
+                                            let palin=""
+                                            let words = prompt("enter your words")
+                                            for(let letters of words){
+                                                palin = palin+letters
+                                            }
+                                            (palin = letters)?alert("it is palindrome"):alert("is not a palindrome")
+                                                
+                                            
+                                        </script> -->
+
+
+                                     <!--    <script>
+                                            let tables = [10,13,9,7,32,90]
+                                            let inf = 100
+                                            for(note of tables ){
+                                                if(inf>note){
+                                                    inf = note
+                                                }else{
+                                                    inf = inf
+                                                }
+                                            }
+                                            console.log(tables)
+                                            console.log(inf)
+                                        </script> -->
+
+<!-- 
+                                        <script>
+                                            const tables = [10,11,12,14,14,2,4,6,8,9,0,7]
+                                            tables.sort()
+                                            console.log(tables)
+                                        </script> -->
+
+                                       <!--  <script>
+                                            const notes = [20,15,3,6,2,7,4,12,14,17,19]
+                                            let temp=0
+                                            for(let i = 0; i<notes.length; i++){
+                                                for(let j = 0; j<notes.length; j++){
+                                                    if(notes[i]>notes[j]){
+                                                        notes[i]=notes[i]
+                                                    }else{
+                                                        temp=notes[j]
+                                                        notes[j]=notes[i]
+                                                        notes[i]=temp
+                                                    }
+                                                    
+
+                                                }
+                                                
+                                            }
+                                            console.log(notes)
+                                        </script> -->
+
+                                        
 </body>
 </html>
 
