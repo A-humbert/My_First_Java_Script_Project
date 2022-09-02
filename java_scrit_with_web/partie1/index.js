@@ -28,7 +28,6 @@ console.log(  document.body.childNodes) */
  let myaELT = document.createElement("li")
  myaELT.textContent = "francis";
  
- 
  let myUL = document.createElement("ul")
  myUL.appendChild(myiELT)
  myUL.appendChild(myliELT)
@@ -56,24 +55,28 @@ divElt.appendChild(mytitle)
      myUL.appendChild(myLi)
  } */
 
-
+//suppression d'un enfant a partir du parent
 /* let myDivlist = document.getElementById("list")
 let myUlrandomlist = document.getElementById("randomlist")
+/* myDivlist.removeChild(myUlrandomlist) */
 
-let mynewul = document.createElement("ul")
-mynewul.setAttribute("id","popo")
+// remplacement d'un element enfant par un autre element
+ /* let mynewul = document.createElement("ul")
 let mynewli = document.createElement("li")
 mynewli.textContent = "Range Rover"
-mynewul.appendChild(mynewli)
+mynewul.appendChild(mynewli) 
+ myDivlist.replaceChild(mynewul,myUlrandomlist) 
+ */
+// attribution de l'attribut id du nom de popo....
+/* mynewul.setAttribute("id","popo") */
 
-/* myDivlist.removeChild(myUlrandomlist) */
-/* myDivlist.replaceChild(mynewul,myUlrandomlist)  */
 
 /* let secondDiv = document.createElement("div")
 document.body.appendChild(secondDiv)
 secondDiv.style.height ="10vh"
 secondDiv.style.width = "10vh"
 secondDiv.style.backgroundColor = "red" */
+
 
 
 
