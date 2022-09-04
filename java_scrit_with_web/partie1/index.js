@@ -16,9 +16,9 @@ console.log(  document.body.childNodes) */
  console.log(myULELT.textContent);
  */
 
-/* 
- let myULELT = document.getElementById("randomlist");
- myULELT.innerHTML += "<li>oops</li>" */
+//* 
+/*  let myULELT = document.getElementById("randomlist");
+ myULELT.innerHTML += "<li>oops</li>" */   
 
 
 /*  let myliELT = document.createElement("li")

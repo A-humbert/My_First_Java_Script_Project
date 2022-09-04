@@ -131,20 +131,53 @@ const money = new Compte("humbert")
                  multiplication(nbre)
  */
 
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* person.nom ="luffy"
 console.log(person.nom) */ 
+
+
+
+// declaration d'objet
+/* let mavoiture = new Object()
+mavoiture.nom = "mercedes"
+mavoiture.model = "course"
+mavoiture.couleur = "noir"
+
+
+console.log(mavoiture) */
+/* let name = new Object()
+let  Myname  = "langue" 
+Myname[langue] = "allemand"
+
+console.log(name); */
+
+
+//decompte des secondes par la fonction setIntervalle
+
+/* let compteur = 10
+let intervalle = null
+
+
+function finish() {
+    clearInterval(intervalle)
+    document.getElementById("bis").innerHTML="c'est terminer"
+}
+
+
+function decompte() {
+    compteur--
+    if(compteur===0){
+        finish()
+    }else{
+        document.getElementById("bis").innerHTML=compteur+ "secondes restantes"
+    }
+}
+
+function start() {
+    intervalle = setInterval(decompte,1000)
+        
+    
+} */
+
+
+
