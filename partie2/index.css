@@ -1,11 +1,11 @@
-/* .boutton{
+ /* .boutton{
     height: 5vh;
-    background-color:royalblue;
+    background-color: rgba(50,72,79);
     color: white;
-    border: 1px solid orchid;
-    border-bottom: forestgreen;
-    border-top: saddlebrown;
-    border-radius: 10px;
-    box-shadow: 8vh 6vh 9vh;
+    border: 5px solid rgb(62, 155, 155);
+    border-radius: 5px;
     cursor: pointer;
-} */
+    border-style: none;
+    font-size: 3vh;
+    font: optional;
+}  */

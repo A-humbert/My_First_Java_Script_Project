@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+    <!-- <main>
         <div>
             <button class="Boutton">click me😉</button>
         </div>
@@ -20,9 +20,52 @@
         </div>
        </main>
 
+ -->
+            <main>
+                <form>
+                        <label for="username">Nom d'utilisateur: </label>
+                        <input type="text" id="username" required>
+                        <br>
+                        <label for="pwd">Mots de passe: </label>
+                        <input type="password" id="pwd" required>
+                        <br>
+                        <label for="H">Homme</label>
+                        <input type="radio" name="sexe" value="homme" id="H" required>
+                        <label for="F">Femme</label>
+                        <input type="radio" name="sexe" value="femme" id="F">
+                        <br>
+                        <label for="">moyen pour vous contactez :</label>
+                         <label for="mail">mail </label><input type="checkbox" name="email" value="mail" id="mail">
+                         <label for="tel">tel</label>
+                        <input type="checkbox" name="telephone" value="tel" id="tel">
+                        <label for="Bp">Boite postale</label>
+                        <input type="checkbox" name="Bp" value="Bp" id="Bp">
+                        <br>
+                        <label for="">Votre pays d'origine: </label>
+                        <select name="" id="country">
+                            <option value="null">choisissez un pays</option>
+                            <option value="Togo">Togo</option>
+                            <option value="Tchad">Tchad</option>
+                            <option value="Ghana">Ghana</option>
+                        </select>
+                       <br>
+                       <button type="submit">valider</button>
+                </form>
+
+            </main>
+
+                   
 
 
 
+
+
+
+
+
+
+
+ 
     <script src="/java_scrit_with_web/partie2/index.js"></script>
     
 </body>
